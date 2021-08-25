@@ -1,20 +1,17 @@
 {
   "name": "DaisyXMusic",
-  "logo": "https://telegra.ph/file/67fc54b05e25a48b0a2b0.jpg",
+  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamDaisyX/DaisyXMusic",
+  "repository": "https://github.com/TeamofDaisyX/DaisyXMusic",
   "stack": "container",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-   }
+   },
    {
      "url": "heroku/python"
-   }
-   {
-     "url": "heroku/nodejs"
-   }  
+   }   
   ],        
   "env": {
     "SESSION_NAME": {
@@ -51,7 +48,7 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": ""
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
